@@ -1,0 +1,12 @@
+[Unit]
+Description=watchyourlan
+Documentation=https://github.com/aceberg/WatchYourLAN
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=/usr/bin/watchyourlan -d /etc/watchyourlan/
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
