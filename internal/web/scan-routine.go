@@ -5,11 +5,11 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/aceberg/WatchYourLAN/internal/arp"
-	"github.com/aceberg/WatchYourLAN/internal/db"
-	"github.com/aceberg/WatchYourLAN/internal/influx"
-	"github.com/aceberg/WatchYourLAN/internal/models"
-	"github.com/aceberg/WatchYourLAN/internal/notify"
+	"github.com/ShorterKing/Cyber-project/internal/arp"
+	"github.com/ShorterKing/Cyber-project/internal/db"
+	"github.com/ShorterKing/Cyber-project/internal/influx"
+	"github.com/ShorterKing/Cyber-project/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/notify"
 )
 
 func startScan(quit chan bool) {

@@ -3,8 +3,8 @@ FROM golang:alpine AS builder
 
 RUN apk add build-base
 COPY . /src
-WORKDIR /src/cmd/WatchYourLAN/
-RUN CGO_ENABLED=0 go build -o /app/WatchYourLAN .
+WORKDIR /src/cmd/CyberProject/
+RUN CGO_ENABLED=0 go build -o /app/CyberProject .
 
 # Stage 2: Set up the final container with both the Go and Python applications
 FROM python:3.9-slim
@@ -13,7 +13,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the Go binary from the builder stage
-COPY --from=builder /app/WatchYourLAN /app/
+COPY --from=builder /app/CyberProject /app/
 
 # Copy the Python application files
 COPY arp-scan /app/arp-scan
@@ -30,4 +30,4 @@ RUN apt-get update && \
 EXPOSE 3000
 
 # Run both applications
-CMD ["sh", "-c", "./WatchYourLAN & python /app/arp-scan/app.py"]
+CMD ["sh", "-c", "./CyberProject & python /app/arp-scan/app.py"]

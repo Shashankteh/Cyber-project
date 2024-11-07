@@ -6,9 +6,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/aceberg/WatchYourLAN/internal/db"
-	"github.com/aceberg/WatchYourLAN/internal/models"
-	"github.com/aceberg/WatchYourLAN/internal/portscan"
+	"github.com/ShorterKing/Cyber-project/internal/db"
+	"github.com/ShorterKing/Cyber-project/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/portscan"
 )
 
 func apiAll(c *gin.Context) {

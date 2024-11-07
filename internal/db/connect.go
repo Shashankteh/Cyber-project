@@ -11,7 +11,7 @@ import (
 	// Import sqlite module
 	_ "modernc.org/sqlite"
 
-	"github.com/aceberg/WatchYourLAN/internal/check"
+	"github.com/ShorterKing/Cyber-project/internal/check"
 )
 
 func connectDB() (*sqlx.DB, bool) {

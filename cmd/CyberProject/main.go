@@ -7,10 +7,10 @@ import (
 	// _ "net/http/pprof"
 	_ "time/tzdata"
 
-	"github.com/aceberg/WatchYourLAN/internal/web"
+	"github.com/ShorterKing/Cyber-project/internal/web"
 )
 
-const dirPath = "/data/WatchYourLAN"
+const dirPath = "/data/cyberproject"
 const nodePath = ""
 
 func main() {

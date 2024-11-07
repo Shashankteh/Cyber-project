@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aceberg/WatchYourLAN/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/models"
 )
 
 func getHostByID(idStr string, hosts []models.Host) (oneHost models.Host) {

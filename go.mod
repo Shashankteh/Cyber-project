@@ -1,4 +1,4 @@
-module github.com/aceberg/WatchYourLAN
+module github.com/ShorterKing/Cyber-project
 
 go 1.22.6
 

@@ -4,8 +4,8 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/aceberg/WatchYourLAN/internal/db"
-	"github.com/aceberg/WatchYourLAN/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/db"
+	"github.com/ShorterKing/Cyber-project/internal/models"
 )
 
 func trimHistoryRoutine() {

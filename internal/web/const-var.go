@@ -3,7 +3,7 @@ package web
 import (
 	"embed"
 
-	"github.com/aceberg/WatchYourLAN/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/models"
 )
 
 var (

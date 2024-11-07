@@ -7,9 +7,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/aceberg/WatchYourLAN/internal/check"
-	"github.com/aceberg/WatchYourLAN/internal/conf"
-	"github.com/aceberg/WatchYourLAN/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/check"
+	"github.com/ShorterKing/Cyber-project/internal/conf"
+	"github.com/ShorterKing/Cyber-project/internal/models"
 )
 
 func configHandler(c *gin.Context) {

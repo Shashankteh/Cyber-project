@@ -3,8 +3,8 @@ package conf
 import (
 	"github.com/spf13/viper"
 
-	"github.com/aceberg/WatchYourLAN/internal/check"
-	"github.com/aceberg/WatchYourLAN/internal/models"
+	"github.com/ShorterKing/Cyber-project/internal/check"
+	"github.com/ShorterKing/Cyber-project/internal/models"
 )
 
 // Get - get app config
