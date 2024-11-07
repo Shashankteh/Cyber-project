@@ -7,7 +7,7 @@ import (
 	// _ "net/http/pprof"
 	_ "time/tzdata"
 
-	"github.com/ShorterKing/Cyber-project/internal/web"
+	"github.com/aceberg/WatchYourLAN/internal/web"
 )
 
 const dirPath = "/data/WatchYourLAN"

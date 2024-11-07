@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  akshatproject:
+    image: akshatproject # Image name
+    build: .
+    network_mode: host  # Connect to host network
+    ports:
+      - "3000:3000"  # Expose port 3000
+      - "8840:8840"  # Expose port 8840
+    environment:
+      - ENV_VAR=value # Optional: Add environment variables if needed
+    restart: unless-stopped # Automatically restart the container unless explicitly stopped
